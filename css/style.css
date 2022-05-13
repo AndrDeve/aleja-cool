@@ -121,7 +121,7 @@ body {
 }
 
 .home .slide {
-  min-height: 85.5vh;
+  min-height: 75vh;
   background-size: cover !important;
   background-position: 0rem 40% !important;
   padding: 0 6%;
