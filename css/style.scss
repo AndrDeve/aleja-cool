@@ -203,7 +203,6 @@ body{
 //acerca de mi
 .acerca-de-mi{
     padding: 3.5rem 6% 0 6%;
-    width: 100%;
 
     .container-acerca{
         display: flex;
@@ -237,6 +236,10 @@ body{
             }
         }
     }
+}
+
+.hola{
+    padding: 5rem 6%;
 }
 
 
@@ -350,7 +353,7 @@ body{
       .acerca-de-mi{
 
         .container-acerca{
-            flex-direction: column;
+            display: block;
 
             .img{
 
@@ -381,7 +384,6 @@ body{
         .container-acerca{
 
             .textos-acerca{
-
                 height: 40rem;
             }
         }

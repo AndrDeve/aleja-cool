@@ -206,7 +206,6 @@ body {
 
 .acerca-de-mi {
   padding: 3.5rem 6% 0 6%;
-  width: 100%;
 }
 
 .acerca-de-mi .container-acerca {
@@ -239,6 +238,10 @@ body {
   margin-top: 1rem;
   color: #7a7a7a;
   font-size: 1.8rem;
+}
+
+.hola {
+  padding: 5rem 6%;
 }
 
 @media (max-width: 1050px) {
@@ -314,10 +317,7 @@ body {
     color: #e57d90;
   }
   .acerca-de-mi .container-acerca {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: block;
   }
   .acerca-de-mi .container-acerca .img img {
     width: 100%;
