@@ -265,15 +265,22 @@ body {
   html {
     font-size: 50%;
   }
+  html .section .container-iconos .iconos-item {
+    margin-bottom: 1.5rem;
+  }
   html .section .container-iconos .iconos-item img {
     height: 5rem;
     width: 5rem;
+  }
+  html .section .container-iconos .iconos-item .img-modificar {
+    height: 4rem;
+    width: 4rem;
   }
   html .section .container-iconos .iconos-item span {
     font-size: 2rem;
   }
   html .section .container-iconos .iconos-item p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

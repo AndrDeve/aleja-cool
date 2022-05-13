@@ -278,10 +278,16 @@ body{
         .container-iconos{
 
           .iconos-item{
+              margin-bottom: 1.5rem;
     
             img{
               height: 5rem;
               width: 5rem;
+            }
+
+            .img-modificar{
+                height: 4rem;
+                width: 4rem;
             }
 
             span{
@@ -289,7 +295,7 @@ body{
             }
 
             p{
-              font-size: 1.2rem;
+              font-size: 1.5rem;
             }
           }
         }
