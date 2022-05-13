@@ -185,6 +185,11 @@ body {
   width: 7rem;
 }
 
+.section .container-iconos .iconos-item .img-modificar {
+  height: 5rem;
+  width: 5rem;
+}
+
 .section .container-iconos .iconos-item span {
   font-size: 2.5rem;
   font-weight: 400;
