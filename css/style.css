@@ -162,7 +162,7 @@ body {
 }
 
 .section {
-  padding: 5rem 6%;
+  padding: 5rem 6% 0 6%;
 }
 
 .section .container-iconos {
@@ -178,6 +178,7 @@ body {
 
 .section .container-iconos .iconos-item {
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .section .container-iconos .iconos-item img {
@@ -186,8 +187,8 @@ body {
 }
 
 .section .container-iconos .iconos-item .img-modificar {
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
 }
 
 .section .container-iconos .iconos-item span {
@@ -273,8 +274,8 @@ body {
     width: 5rem;
   }
   html .section .container-iconos .iconos-item .img-modificar {
-    height: 4rem;
-    width: 4rem;
+    height: 5rem;
+    width: 5rem;
   }
   html .section .container-iconos .iconos-item span {
     font-size: 2rem;
