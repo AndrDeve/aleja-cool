@@ -212,7 +212,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 40rem;
 }
 
 .acerca-de-mi .container-acerca .img img {
@@ -241,7 +240,7 @@ body {
 }
 
 .hola {
-  padding: 5rem 6%;
+  position: relative;
 }
 
 @media (max-width: 1050px) {
@@ -291,7 +290,7 @@ body {
   }
   .header .header-center .header-center-items .navbar {
     position: absolute;
-    top: 99%;
+    top: 98%;
     left: 0;
     right: 0;
     background: #f99aaa;
@@ -317,7 +316,10 @@ body {
     color: #e57d90;
   }
   .acerca-de-mi .container-acerca {
-    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .acerca-de-mi .container-acerca .img img {
     width: 100%;

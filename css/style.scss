@@ -203,10 +203,10 @@ body{
 //acerca de mi
 .acerca-de-mi{
     padding: 3.5rem 6% 0 6%;
+    
 
     .container-acerca{
         display: flex;
-        height: 40rem;
 
         .img{
             
@@ -220,7 +220,6 @@ body{
         .textos-acerca{
             text-align: center;
             background: #ffcdd4;
-            // height: 40rem;
             padding: 3rem 4% 0 4%;
 
             h2{
@@ -239,9 +238,8 @@ body{
 }
 
 .hola{
-    padding: 5rem 6%;
+  position: relative;
 }
-
 
 
 
@@ -321,7 +319,7 @@ body{
     
             .navbar{
               position: absolute;
-              top:99%; left:0; right:0;
+              top:98%; left:0; right:0;
               background: $rosa-claro;
               /* desaparece menu responsivo */
               clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -353,11 +351,12 @@ body{
       .acerca-de-mi{
 
         .container-acerca{
-            display: block;
+            flex-direction: column;
 
             .img{
 
                 img{
+                  // display: none;
                     width: 100%;
                     height: 32rem;
                 }
