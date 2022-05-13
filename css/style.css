@@ -111,11 +111,12 @@ body {
 }
 
 .home {
-  margin-top: 10rem;
+  padding: 0;
+  margin-top: 9.5rem;
 }
 
 .home .slide {
-  min-height: 80vh;
+  min-height: 84.9vh;
   background-size: cover !important;
   background-position: 0rem 40% !important;
   padding: 0 6%;
