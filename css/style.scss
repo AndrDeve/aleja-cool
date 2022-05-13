@@ -199,6 +199,44 @@ body{
   }
 }
 
+//acerca de mi
+.acerca-de-mi{
+    padding: 3.5rem 6% 0 6%;
+    width: 100%;
+
+    .container-acerca{
+        display: flex;
+
+
+        .img{
+            
+            img{
+                height: 40rem;
+                object-fit: cover;
+            }
+        }
+
+        .textos-acerca{
+            text-align: center;
+            background: #ffcdd4;
+            height: 40rem;
+            padding: 3rem 4% 0 4%;
+
+            h2{
+                font-size: 2.6rem;
+                color: #7a7a7a;
+                font-weight: 500;
+            }
+
+            p{  
+                margin-top: 1rem;
+                color: #7a7a7a;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
 
 
 
@@ -209,6 +247,23 @@ body{
     html{
         font-size: 55%;
         scroll-padding: 7rem;
+    }
+
+    .acerca-de-mi{
+
+        .container-acerca{
+
+            .textos-acerca{
+
+                h2{
+                    font-size: 2rem;
+                }
+
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
     }
 
 }
@@ -265,6 +320,33 @@ body{
               }
             }
           }
+        }
+      }
+
+      .acerca-de-mi{
+
+        .container-acerca{
+            flex-direction: column;
+
+            .img{
+
+                img{
+                    width: 100%;
+                    height: 32rem;
+                }
+            }
+
+            .textos-acerca{
+                height: 32rem;
+
+                h2{
+                    // font-size: 2.6rem;
+                }
+
+                p{
+                    // font-size: 1.8rem;
+                }
+            }
         }
       }
 }
