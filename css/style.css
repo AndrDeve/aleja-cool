@@ -212,9 +212,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 40rem;
 }
 
 .acerca-de-mi .container-acerca .img img {
+  width: 50rem;
   height: 40rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -223,7 +225,6 @@ body {
 .acerca-de-mi .container-acerca .textos-acerca {
   text-align: center;
   background: #ffcdd4;
-  height: 40rem;
   padding: 3rem 4% 0 4%;
 }
 
@@ -239,10 +240,19 @@ body {
   font-size: 1.8rem;
 }
 
+@media (max-width: 1050px) {
+  .acerca-de-mi .container-acerca .img img {
+    width: 35rem;
+  }
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
     scroll-padding: 7rem;
+  }
+  .acerca-de-mi .container-acerca .img img {
+    width: 45rem;
   }
   .acerca-de-mi .container-acerca .textos-acerca h2 {
     font-size: 2rem;
@@ -314,6 +324,15 @@ body {
   }
   .acerca-de-mi .container-acerca .textos-acerca {
     height: 32rem;
+  }
+  .acerca-de-mi .container-acerca .textos-acerca p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .acerca-de-mi .container-acerca .textos-acerca {
+    height: 40rem;
   }
 }
 

@@ -206,11 +206,12 @@ body{
 
     .container-acerca{
         display: flex;
-
+        height: 40rem;
 
         .img{
             
             img{
+                width: 50rem;
                 height: 40rem;
                 object-fit: cover;
             }
@@ -219,7 +220,7 @@ body{
         .textos-acerca{
             text-align: center;
             background: #ffcdd4;
-            height: 40rem;
+            // height: 40rem;
             padding: 3rem 4% 0 4%;
 
             h2{
@@ -242,6 +243,21 @@ body{
 
 
 // media queries
+@media (max-width:1050px){
+
+    .acerca-de-mi{
+
+        .container-acerca{
+
+            .img{
+
+                img{
+                    width: 35rem;
+                }
+            }
+        }
+    }
+}
 @media (max-width:991px){
 
     html{
@@ -252,6 +268,13 @@ body{
     .acerca-de-mi{
 
         .container-acerca{
+
+            .img{
+
+                img{
+                    width: 45rem;
+                }
+            }
 
             .textos-acerca{
 
@@ -344,11 +367,24 @@ body{
                 }
 
                 p{
-                    // font-size: 1.8rem;
+                    font-size: 1.7rem;
                 }
             }
         }
       }
+}
+
+@media (max-width:470px){
+    .acerca-de-mi{
+
+        .container-acerca{
+
+            .textos-acerca{
+
+                height: 40rem;
+            }
+        }
+    }
 }
 
 @media (max-width:450px){
