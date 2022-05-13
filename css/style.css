@@ -137,15 +137,15 @@ body {
   width: 60rem;
 }
 
-.home .slide .content span {
-  font-size: 2rem;
+.home .slide .content h3 {
+  font-size: 4rem;
   color: #e57d90;
   display: block;
-  font-weight: 700;
+  font-weight: 500;
 }
 
-.home .slide .content h3 {
-  font-size: 5rem;
+.home .slide .content p {
+  font-size: 3rem;
   color: #ffffff;
   padding: 1rem 0;
 }
