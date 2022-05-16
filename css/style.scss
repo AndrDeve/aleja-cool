@@ -237,8 +237,98 @@ body{
     }
 }
 
-.hola{
-  position: relative;
+
+// cosmeticos
+.cosmeticos{
+  padding: 5rem 6% 0 6%;
+
+  .titulos{
+    text-align: center;
+    position: relative;
+
+    &::before{
+      content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        height: .1rem;
+        width: 100%;
+        background: $gris;
+        z-index: -1;
+    }
+
+    span{
+        font-size: 2.6rem;
+        color: $rosa-bg;
+        background: #fff6f6;
+        padding: .5rem 1.5rem;
+        /* borde cuadrado del titulo */
+        border: .1rem solid $gris;
+        border-radius: .5rem;
+    }
+  }
+}
+
+.contenedor-productos{
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .contenedor{
+      margin-bottom: 5rem;
+      box-shadow: .1rem 0 1rem .3rem #ffd1d8;
+
+      img{
+        height: 35rem;
+        width: 32rem;
+        border-radius: .5rem;
+        cursor: pointer;
+      }
+
+      .textos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-top: 1rem;
+        margin-left: 1rem;
+
+        p{
+          color: $rosa-bg;
+          font-weight: 700;
+          font-size: 1.8rem;
+        }
+
+        span{
+          color: $rosa-bg;
+          font-size: 1.3rem;
+          font-weight: 500;
+          margin-right: 1rem;
+        }
+      }
+
+      span{
+        color: #7a7a7a;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-left: 1rem;
+      }
+    }
+
+    button{
+      background: $rosa-bg;
+      color: $blanco;
+      padding: 1rem 2rem;
+      margin: .8rem 0 1rem 1rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+
+      &:hover{
+        transform: scale(1.03);
+      }
+    }
 }
 
 
@@ -377,6 +467,54 @@ body{
       }
 }
 
+@media (max-width:666px){
+    .contenedor-productos{
+
+      .contenedor{
+
+        img{
+          height: 25rem;
+          width: 25rem;
+        }
+      }
+    }
+}
+
+@media (max-width:520px){
+  .contenedor-productos{
+
+    .contenedor{
+
+      img{
+        height: 20rem;
+        width: 20rem;
+      }
+
+      .textos{
+        margin-top: .5rem;
+        margin-left: .5rem;
+
+        p{
+          font-size: 1.5rem;
+        }
+
+        span{
+          margin-right: .5rem;
+        }
+      }
+
+      span{
+        font-size: 1.5rem;
+        margin-left: .5rem;
+      }
+    }
+
+    button{
+      margin-left: 0.5rem;
+    }
+  }
+}
+
 @media (max-width:470px){
     .acerca-de-mi{
 
@@ -423,3 +561,16 @@ body{
       }
     }
   }
+
+@media (max-width:450px){
+  .contenedor-productos{
+
+    .contenedor{
+
+      img{
+        height: 18rem;
+        width: 18rem;
+      }
+    }
+  }
+}  
