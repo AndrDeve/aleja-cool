@@ -292,7 +292,6 @@ body {
 .contenedor-productos .contenedor img {
   height: 35rem;
   width: 32rem;
-  border-radius: .5rem;
   cursor: pointer;
 }
 
@@ -503,8 +502,8 @@ body {
 
 @media (max-width: 450px) {
   .contenedor-productos .contenedor img {
-    height: 18rem;
-    width: 18rem;
+    height: 19.2rem;
+    width: 19.2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
