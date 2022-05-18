@@ -226,6 +226,7 @@ body {
   text-align: center;
   background: #ffcdd4;
   padding: 3rem 4% 0 4%;
+  height: 40rem;
 }
 
 .acerca-de-mi .container-acerca .textos-acerca h2 {
@@ -402,6 +403,10 @@ body {
   /* lo que va a ampliar tamaño*/
 }
 
+.peluches {
+  padding: 0rem 6% 0 6%;
+}
+
 @media (max-width: 1050px) {
   .acerca-de-mi .container-acerca .img img {
     width: 35rem;
@@ -485,7 +490,7 @@ body {
     height: 32rem;
   }
   .acerca-de-mi .container-acerca .textos-acerca {
-    height: 32rem;
+    height: 35rem;
   }
   .acerca-de-mi .container-acerca .textos-acerca h2 {
     font-size: 2.6rem;
