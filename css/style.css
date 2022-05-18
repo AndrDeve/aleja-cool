@@ -403,10 +403,6 @@ body {
   /* lo que va a ampliar tamaño*/
 }
 
-.peluches {
-  padding: 1rem 6% 0 6%;
-}
-
 @media (max-width: 1050px) {
   .acerca-de-mi .container-acerca .img img {
     width: 35rem;
