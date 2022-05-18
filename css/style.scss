@@ -284,6 +284,7 @@ body{
         height: 35rem;
         width: 32rem;
         cursor: pointer;
+        z-index: 3000;
       }
 
       .textos{
@@ -331,6 +332,39 @@ body{
     }
 }
 
+
+//ligtbox
+.imagen-light{
+  position:fixed;
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 100%;  /* centrar imagen*/
+  top: 4rem;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(100%);
+  transition: transform .2s ease-in-out;
+  z-index: 10000;
+}
+
+.show{
+  transform: translate(0);
+}
+
+.agregar-imagen{
+  object-fit: cover;
+  width: 53rem;
+  border-radius: 1rem; /*imagen*/
+  transform: scale(0);
+  transition: transform .3s .2s;
+  height: 53rem;
+}
+
+.showImage{
+  transform: scale(.8); /* lo que va a ampliar tamaño*/
+}
 
 
 
