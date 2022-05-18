@@ -356,7 +356,7 @@ body {
   width: 100%;
   height: 100%;
   /* centrar imagen*/
-  top: 4rem;
+  top: 0;
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -384,7 +384,7 @@ body {
 .agregar-imagen {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 53rem;
+  width: 55rem;
   border-radius: 1rem;
   /*imagen*/
   -webkit-transform: scale(0);
@@ -393,7 +393,7 @@ body {
   transition: -webkit-transform .3s .2s;
   transition: transform .3s .2s;
   transition: transform .3s .2s, -webkit-transform .3s .2s;
-  height: 53rem;
+  height: 55rem;
 }
 
 .showImage {
