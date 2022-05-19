@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
     <title>Aleja cool</title>
 
     <!-- font awesome cdn link ICONOS DE HAMBURGUESA Y LA X  -->
@@ -16,12 +19,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <a href="https://api.whatsapp.com/send?phone=+573203944646&text=hola,%20qu%C3%A9%20tal?" target="_blank" class="pulse"><i class="fa fa-phone"></i></a>
 
     <!--inicio header-->
     <header class="header">
 
         <div class="header-top">
-            <p>Contáctanos: +57 320 394 46 46</p>
+            <p>Contáctanos: <a href="https://api.whatsapp.com/send?phone=+573203944646&text=hola,%20qu%C3%A9%20tal?" target="_blank">+57 320 394 46 46</a></p>
         </div>
 
         <div class="header-center">
@@ -35,7 +39,7 @@
                 <a href="#acerca">Sobre nosotros</a>
                 <a href="#cosmeticos">Cosméticos</a>
                 <a href="#peluches">Peluches</a>
-                <a href="#">Redes sociales</a>
+                <a href="#redes">Redes sociales</a>
             </nav>
            </div>
         </div>
@@ -289,7 +293,232 @@
             <!-- <img src="img/close.svg" alt="" class="close"> x para cerrar -->
             <img src="" alt="" class="agregar-imagen">
         </section>
+
+        <section class="cosmeticos redes-sociales" id="redes">
+            <h2 class="titulos"><span>Síguenos para más accesorios</span></h2>
+            <div class="items-redes">
+                <a href="" target="_blank"><img src="img/logo-instagram.png" alt="logo instagram">Instagram</a>
+                <a href="https://t.me/thebeautyhair_45" target="_blank"><img src="img/logo-telegram.png"alt="">Telegram</a>
+                <a href="" target="_blank"><img src="img/logo-facebook.png" alt="logo facebook">Facebook</a>
+            </div>
+
+
+
+            <div class="wrap scroll">
+                <div class="" id="escoge-un-producto"></div>
+                <!-- <a href="pdf/TBH-Catálogo.pdf" class="animate__animated animate__headShake animate__infinite descarga" download="">Descarga Catálogo</a> -->
+                <h3>Escoge un producto</h3>
+                <div class="store-wrapper">
+                    <div class="category_list">
+                        <a href="#escoge-un-producto" class="category_item" category="all">Todo</a>
+                        <!-- <a href="#escoge-un-producto" class="category_item" category="bolsos">Bolsos</a> -->
+                        <a href="#escoge-un-producto" class="category_item" category="paletas">Ejemplo</a>
+                        <a href="#escoge-un-producto" class="category_item" category="pulseras">Ejemplo</a>
+                        <a href="#escoge-un-producto" class="category_item" category="mascarillas">Ejemplo</a>
+                        <a href="#escoge-un-producto" class="category_item" category="accesorios">Ejemplo</a>
+                        <!-- <a href="pdf/TBH-Catálogo.pdf" class="animate__animated animate__headShake animate__infinite category_item descarga" download="">Descarga Catálogo</a> -->
+                    </div>
+
+                    <section class="products-list">
+                        <div class="product-item" category="paletas">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="paletas">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        
+                        <div class="product-item" category="pulseras">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="pulseras">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div> 
+                        
+
+
+
+                        <div class="product-item" category="accesorios">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+
+                        <div class="product-item" category="accesorios">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="accesorios">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+
+
+
+                        <div class="product-item" category="paletas">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="paletas">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <!-- <div class="product-item" category="bolsos">
+                            <img src="img/bolso1.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>
+                        <div class="product-item" category="bolsos">
+                            <img src="img/bolso3.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div> -->
+
+
+                        
+                        <div class="product-item" category="pulseras">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>  
+                        <div class="product-item" category="pulseras">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>                 
+                          
+                        <!-- <div class="product-item" category="bolsos">
+                            <img src="img/bolso.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>
+                        <div class="product-item" category="bolsos">
+                            <img src="img/bolso2.jpg" alt="" >
+                            <a href="#">Hermosos bolsos</a>
+                        </div>   -->
+
+                        
+                        
+                        <div class="product-item" category="mascarillas">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="mascarillas">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="mascarillas">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                        <div class="product-item" category="mascarillas">
+                            <img src="img/stich.png" alt="" >
+                            <div class="textos">
+                                <span id="ref12">ref:12</span>
+                                <p id="r12">Nombre del producto</p>
+                            </div>
+                            <span class="span" id="precio12">$11.000</span> <br>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
     </main>
+
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident aliquid et fugiat dignissimos quisquam minima hic, eveniet laudantium labore? Quae delectus ex quas, a, asperiores, praesentium quam quis fugiat dicta autem odit. Facere dolor explicabo omnis minima sint quisquam laboriosam quasi blanditiis molestiae sequi, deleniti ea ducimus alias maxime recusandae itaque hic? Nulla error voluptate quaerat cum a! Rem mollitia velit, nihil modi, placeat tempora, reiciendis reprehenderit quasi dolor qui doloremque consequuntur dicta natus quae cum animi fuga. Maxime optio laboriosam pariatur rem repudiandae incidunt qui asperiores sed harum quia fuga quos, cumque placeat dolore, soluta reprehenderit at commodi consectetur dignissimos unde deleniti rerum autem ad doloremque. Magnam, distinctio? Architecto tenetur voluptatibus voluptate similique vel deserunt itaque quisquam veritatis reiciendis explicabo asperiores doloremque neque praesentium quas, exercitationem at quae alias illum iste nostrum eaque, numquam labore iure. Ducimus nesciunt ex necessitatibus, cumque accusamus doloremque, laborum, est error itaque odit harum incidunt. Et ipsam vitae voluptatum tenetur obcaecati distinctio, dolorum laboriosam cum. Dolorum, iusto delectus. Tempora nemo consequatur cumque, dignissimos molestiae obcaecati ipsum ea sunt reiciendis cupiditate? Dolorum, facere nobis? Itaque, totam impedit eum natus neque possimus aperiam sequi sint, consequatur officiis aliquid! Minus doloremque impedit deserunt nobis, veniam quidem quos amet, quis consequatur numquam est autem ratione, nesciunt id pariatur repellat consequuntur beatae maxime possimus qui quia ipsam. Sint adipisci non quis exercitationem, voluptatem commodi vero nam odit nulla voluptatibus cumque deserunt sed quo sapiente eligendi distinctio modi quod earum quam blanditiis perferendis? Consequuntur deserunt ipsam necessitatibus expedita a voluptatem reiciendis quo eum quisquam maxime temporibus dignissimos, repudiandae numquam sapiente alias eaque velit dolore nobis iusto sit ut ipsa at dicta blanditiis. Officiis soluta in, quia atque ratione repellendus inventore facere nemo amet voluptate est quisquam velit vitae magni. Debitis nisi beatae, quibusdam vero in assumenda autem, nesciunt nemo vel cumque atque ex dolorum aliquam voluptate cum aliquid odit ducimus eos incidunt voluptas reiciendis architecto neque quisquam. Inventore vitae cumque commodi asperiores iusto nisi nemo ea, corporis, officia culpa ullam atque porro? Doloremque sint saepe vero dignissimos, natus voluptatibus aperiam corrupti accusamus minus ipsum doloribus, architecto vel eligendi modi necessitatibus voluptas voluptate quos eum earum amet nemo, quas dolor magnam temporibus. Porro saepe facilis expedita ad debitis, ipsam maxime natus temporibus reprehenderit soluta veniam eveniet a fugit, voluptatem quae neque, cum possimus distinctio necessitatibus libero ea. Fuga ut reiciendis suscipit praesentium deserunt, modi nisi sit minus illo? Quas cupiditate quaerat libero quidem vero harum. In perferendis, dicta atque eos natus est magni culpa autem earum voluptatem quis a labore soluta minus vero officiis minima accusantium quos rem voluptas? Iure, assumenda eius voluptates minus aliquam odio earum velit quidem obcaecati aliquid rem consequuntur in alias. Sint cupiditate voluptatibus atque non unde ducimus facere, voluptate aliquid alias! Autem, officiis cupiditate? Doloribus veritatis repudiandae unde modi repellendus beatae. Quae suscipit fugiat dolore laudantium repellat consequuntur! Expedita eaque libero numquam odit quis, enim eum dolore nisi perspiciatis quisquam suscipit labore voluptatem in quasi? Porro dicta nulla saepe ab et, distinctio reprehenderit neque tenetur molestiae corporis laboriosam facere deleniti aspernatur perferendis. Modi sint labore nostrum rem placeat blanditiis delectus cumque dicta, distinctio voluptatem consectetur alias non maxime praesentium voluptate, laborum repudiandae ipsam ex nisi neque ab. Accusamus asperiores nihil, deleniti exercitationem quo maxime enim qui esse officiis culpa cum! Architecto pariatur voluptatum, et consectetur repudiandae mollitia cupiditate doloribus tenetur alias reiciendis aliquid non fuga, suscipit distinctio ducimus sit maxime magnam at. Nulla dolorem possimus illo totam hic aliquam cumque maxime quis facere sed, ea sint. Dignissimos, vitae ducimus eum inventore quasi iure consequatur aspernatur! Quibusdam perferendis, tempore pariatur unde nihil at nemo ipsam! Perspiciatis magni numquam omnis ad, consectetur libero impedit, similique eos quis, doloremque odio autem. Praesentium voluptas dolorum omnis nulla ea, ex tempore sit mollitia ab sunt sed. Ipsa eligendi, cumque delectus velit consectetur eius harum nihil est enim omnis vitae blanditiis optio magni similique tenetur quisquam ratione fuga consequuntur exercitationem repellat saepe voluptatem. Adipisci, ullam incidunt, doloribus odio distinctio mollitia consectetur a tempora consequatur provident labore quasi temporibus, tempore officia facilis ad nobis quae! Accusamus non animi dignissimos repellat veritatis earum minus omnis, ullam autem suscipit sit asperiores natus voluptas odio inventore, voluptatibus repellendus eos sunt voluptatem doloribus blanditiis eveniet quasi sint. Labore distinctio placeat voluptate modi soluta, voluptates porro ea iure et, iste fugiat deleniti aliquid praesentium sed. Asperiores laborum aspernatur nihil ab veritatis modi velit saepe deleniti ipsam quaerat. Reiciendis quae soluta molestias maxime, nesciunt accusantium vel amet, aspernatur minima ullam ex cum aperiam. Magni nostrum praesentium cum quos alias dolore! Labore, perferendis. Saepe libero expedita harum enim pariatur sed dignissimos ut iure excepturi blanditiis, ullam at unde provident delectus dolores eveniet ipsam corporis numquam illum deleniti eaque doloremque neque magni? Dolor dolorem, odio rerum exercitationem minima impedit sunt voluptate tempore tenetur deserunt quos sit inventore, ducimus nisi itaque? Possimus vel quod aliquam minus illum id facilis quidem exercitationem dicta officiis et porro neque nobis, accusantium velit odio inventore. Quidem vel commodi perspiciatis totam similique eius corporis reiciendis maxime eaque, ab, obcaecati ipsum, porro est accusantium quis provident? Nemo, esse itaque ipsa velit rerum atque eveniet obcaecati similique illo quam, magnam expedita veritatis inventore cumque. Laborum, repudiandae voluptate velit libero voluptatum inventore aliquam vero quisquam error nihil a! Porro alias ullam, labore laboriosam aliquam assumenda totam tempora animi delectus rerum impedit, ipsam facere sunt distinctio nam. Itaque iste, perspiciatis officia vel nemo quis nesciunt distinctio, sed ullam molestias libero sunt quas? Est beatae laborum, voluptas perferendis, nulla dolore maiores cum, consequuntur soluta earum velit et amet totam quibusdam numquam facilis. Tenetur nihil, repellendus, consequatur dignissimos facilis perspiciatis, architecto veniam mollitia neque sequi nulla aliquid nisi quaerat dolores unde excepturi hic non possimus eum et modi consectetur ducimus soluta saepe? Cum dolores esse commodi sed exercitationem animi laudantium rerum repudiandae earum, ullam sit aliquam perspiciatis nesciunt deserunt, ipsam nihil enim fugit omnis temporibus, fugiat veritatis ex ratione dolorem error. Reprehenderit iste omnis fugit earum eligendi aperiam, minima laborum animi reiciendis ratione deleniti facilis odio delectus itaque cum officia? Laborum expedita accusamus suscipit voluptatem consectetur architecto quia vel, similique optio ab animi laboriosam, eum iste soluta! Error asperiores ipsam quo expedita repellendus impedit tenetur explicabo, libero commodi molestiae, ab eveniet cupiditate maxime cum omnis odit sint accusamus! Ut aperiam eius animi nam. Error cupiditate autem exercitationem dicta nostrum! Tenetur, animi? Quae earum culpa illo et. Quibusdam dolores culpa facilis dicta, earum eaque molestiae quisquam veniam ipsa. Possimus, earum inventore aliquam autem commodi rem doloremque necessitatibus modi dolore, natus unde deleniti non vitae! Obcaecati necessitatibus distinctio et, eligendi, provident praesentium animi commodi laborum vero iusto molestiae non cupiditate quam labore harum corrupti cumque numquam nam repellat esse maiores, reprehenderit culpa quas. Eum dolore praesentium autem veniam quas, nesciunt obcaecati culpa fugit, non ex et. Architecto doloribus voluptate magnam harum cupiditate ea delectus omnis exercitationem quidem praesentium rem ipsam excepturi ad deserunt molestias velit quos veniam, quis consequatur commodi quibusdam facere odit aliquam cum! Similique a et, impedit illo nam omnis corporis iste quidem, dolor nostrum aspernatur beatae inventore. Et dolorum sequi quisquam repudiandae laboriosam modi vitae maxime, iure quia inventore ab doloribus ea iste rerum quod ipsa! Deleniti quisquam fugit facere cum quidem laborum, dolores iure eius similique id at molestiae assumenda maiores quas reprehenderit vitae, itaque necessitatibus a provident aliquam, quis quasi! Quasi repudiandae corporis necessitatibus at ipsa beatae a qui tenetur enim omnis, inventore neque consectetur cumque modi earum assumenda magni debitis est facilis veritatis, illum eos doloribus. Similique sunt repellat culpa cum adipisci voluptatibus praesentium, dolorum quo veritatis velit omnis reprehenderit beatae. Qui nihil exercitationem dignissimos dolor mollitia ut totam? Quidem expedita ex temporibus? Ad veritatis asperiores maxime dolores accusantium laudantium accusamus vitae, aliquid alias a cupiditate dolorum reiciendis ea non exercitationem velit architecto amet illum distinctio voluptatibus doloremque sequi. Ratione ducimus ullam recusandae earum blanditiis rem ipsam sunt perferendis a nesciunt tempore ipsa dicta, necessitatibus facilis. Quas, sit. Laudantium corrupti in amet dignissimos autem magnam officiis error mollitia, tenetur, possimus sit facilis accusantium. Consequatur vel odit porro dolorem nulla repudiandae facere est maxime, delectus voluptas at ad! Itaque facilis architecto repellendus obcaecati autem explicabo deleniti veritatis alias reiciendis eligendi sequi illum, possimus, laborum odit, eum rerum inventore necessitatibus velit aliquid nesciunt neque labore recusandae fugit! Totam recusandae quia quas possimus fuga perspiciatis at expedita fugit velit, nulla soluta sapiente. Earum ipsam sint alias corporis optio! Ipsum voluptas possimus maxime autem quaerat, excepturi velit tenetur ex quos eius cumque beatae eum sequi eos praesentium recusandae corrupti animi vero repudiandae quasi libero dolorum corporis unde doloribus. Eaque, voluptatibus nulla distinctio ratione similique vero fugit voluptates, reprehenderit nobis est id atque quam! Illo corporis fuga, error doloribus in exercitationem. Quisquam, animi atque? Unde, molestiae accusantium. Hic dolor incidunt quaerat architecto voluptas aliquid aspernatur libero nemo consequuntur, maiores, pariatur quasi quod esse adipisci assumenda! Inventore voluptates ipsa corrupti optio voluptatibus! Fugit nulla id, temporibus, voluptatum impedit ea vel odio deserunt, maxime quod assumenda hic suscipit ut? Libero velit voluptate, aliquid quam dignissimos modi, nihil ab non id impedit sapiente deleniti praesentium dolorem reiciendis, dolore hic iste rem nobis error? Quo numquam ducimus, quaerat animi ad ex impedit eos placeat laborum rerum debitis vel suscipit esse doloribus veniam hic fugiat. Labore necessitatibus, numquam omnis, veniam animi, tempora harum facere quo non eaque rem. Aut aliquid nostrum ex quas nobis veritatis quia, odit iure et, blanditiis, quis facere tenetur animi impedit modi numquam rerum esse voluptas pariatur corporis. Cum laudantium ut soluta aliquam dolorum et. Dolores excepturi repellendus architecto ducimus. Repellendus libero magnam tempore sapiente minima ut voluptas dolorum natus, ab ex molestiae architecto reprehenderit nemo esse. Culpa minima eum odit quam cumque aliquid delectus velit repellat facilis nulla dignissimos, optio exercitationem magnam, alias omnis quaerat accusantium inventore quibusdam quod. Facere dignissimos pariatur reprehenderit eligendi delectus eum quod sequi fuga! Voluptates eveniet veniam id facilis veritatis enim magnam hic repellendus temporibus nemo deleniti placeat, laborum eligendi architecto nam! Voluptate, ipsam nostrum fugiat magnam id assumenda, adipisci tenetur culpa voluptas numquam sunt et. Corporis eaque nemo eos fugiat voluptatibus, magnam temporibus sunt necessitatibus at itaque repellendus accusamus similique provident quos odio excepturi minus ex laudantium dolorem! Velit eaque quos aperiam, non qui ipsam quidem earum commodi est quas eum numquam delectus. Voluptatem qui sapiente odio, sit esse modi rerum, adipisci quas error officiis reprehenderit dignissimos similique impedit pariatur architecto porro corrupti provident eligendi aspernatur laborum, inventore cupiditate ipsam illo. Eveniet et, laudantium minus mollitia enim atque labore, molestias vel pariatur eius temporibus esse voluptatum officiis ea sint. Commodi eum eaque debitis blanditiis magnam deserunt quam, quos vitae! Dolorum repellat maxime possimus placeat ducimus perspiciatis ut dolorem nesciunt sint sed autem rerum officiis ea esse, quibusdam illum cupiditate asperiores mollitia architecto quod? Soluta, modi magni! Facere, ex eos. Nisi libero aperiam alias sint hic voluptatem necessitatibus aliquid. Voluptas voluptatibus nam tempore aliquam ipsum laborum cumque ad, quos ex quisquam aut eum in error suscipit perferendis optio assumenda? Dolor sint nemo veritatis vitae eaque quo eos laboriosam reiciendis autem, repellat minus perspiciatis obcaecati dolorem perferendis corporis ratione laudantium necessitatibus officia ab consequuntur pariatur blanditiis itaque. Vel dolorum cum rerum, voluptas vitae perferendis fuga accusamus voluptate vero doloremque omnis delectus aliquam, porro quia at ratione veniam asperiores! Asperiores beatae a sit quas architecto? Rerum beatae, consequuntur tenetur, voluptate reprehenderit repellendus veritatis sint eligendi velit autem tempora sed nihil amet est illum placeat culpa dignissimos facilis facere nam magnam minima reiciendis! Doloribus reiciendis accusantium quam, iure officia, tempore necessitatibus vero maxime rem adipisci, minima explicabo cupiditate nulla eligendi? Culpa, inventore. Optio aliquid, suscipit exercitationem corporis alias facere molestiae vero tempora voluptas dolore esse, quisquam eum numquam fugiat, quos vitae atque facilis eveniet cupiditate obcaecati beatae velit voluptatibus reprehenderit quis. Ut, alias? Magnam suscipit commodi cumque obcaecati vitae sint dignissimos et voluptate necessitatibus repudiandae est porro, nesciunt mollitia consequuntur voluptatum corporis esse eveniet quidem incidunt ex? Nobis ut sunt at repellendus, voluptatum, velit sequi iusto aut officiis nesciunt blanditiis facere aperiam molestiae non magni sit exercitationem, consequuntur commodi officia deleniti possimus amet veniam quibusdam eos. Placeat ullam cupiditate odio provident amet!
     
 
     <script src="js/lightbox.js"></script>
@@ -297,5 +526,6 @@
     <script src="js/compras-cosmeticos.js"></script>
     <script src="js/compras-peluches.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
 </body>
 </html>
