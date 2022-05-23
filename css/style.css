@@ -494,9 +494,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 3.5rem 0 2.5rem 0;
 }
 
@@ -672,6 +672,121 @@ body {
   height: 220px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+footer {
+  background: #e57d90;
+  margin-top: 4rem;
+  color: #fff;
+}
+
+footer .footer {
+  padding: 1.5rem 6%;
+}
+
+footer .footer .footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer .footer-items .interes p {
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin: .8rem 0 1rem 0;
+}
+
+footer .footer .footer-items span {
+  color: #414141;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+footer .footer .footer-items a {
+  color: #ffffff;
+  font-size: 1.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: .9rem;
+}
+
+footer .footer .footer-items a img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: .3rem;
+}
+
+footer .footer .footer-items a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer .footer .footer-items .enlaces {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer .footer-items .footer-redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer .footer-items .footer-redes-sociales a {
+  margin-bottom: 1rem;
+}
+
+footer .footer .footer-items .footer-wpp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer .footer-items .footer-wpp a {
+  font-size: 1.6rem;
+}
+
+footer .footer .footer-items .footer-wpp .wpp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer .footer-items .footer-wpp .wpp img {
+  height: 2.1rem;
+  width: 2.1rem;
+  margin-right: .3rem;
+}
+
+footer .footer .footer-items .footer-telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /* RESPONSIVE ================================ del jquery*/
@@ -861,6 +976,15 @@ body {
   .contenedor-productos button {
     margin-left: 0.5rem;
   }
+  .redes-sociales .items-redes {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .redes-sociales .items-redes img {
+    height: 2.7rem;
+    width: 2.7rem;
+  }
 }
 
 @media (max-width: 470px) {
@@ -896,6 +1020,40 @@ body {
   .contenedor-productos .contenedor img {
     height: 19.2rem;
     width: 19.2rem;
+  }
+  footer .footer {
+    padding: 1.5rem 3%;
+  }
+  footer .footer .footer-items .interes p {
+    font-size: 1.3rem;
+  }
+  footer .footer .footer-items span {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+  footer .footer .footer-items a {
+    font-size: 1.3rem;
+  }
+  footer .footer .footer-items a img {
+    height: 1.7rem;
+    width: 1.7rem;
+  }
+  footer .footer .footer-items .footer-redes-sociales a {
+    margin-right: 1rem;
+  }
+  footer .footer .footer-items .footer-redes-sociales span {
+    margin-right: 1rem;
+  }
+  footer .footer .footer-items .footer-wpp a {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+  }
+  footer .footer .footer-items .footer-wpp .wpp img {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+  footer .footer .footer-items .footer-wpp span {
+    margin-right: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
